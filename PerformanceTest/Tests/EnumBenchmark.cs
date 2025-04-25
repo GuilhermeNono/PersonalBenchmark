@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
-using PerformanceTest.Objects;
+using PerformanceTest.Model;
 
 namespace PerformanceTest.Tests;
 

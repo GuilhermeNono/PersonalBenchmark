@@ -18,6 +18,6 @@ using PerformanceTest.Tests;
 //     .AddColumnProvider(DefaultColumnProviders.Instance);
 
 // BenchmarkRunner.Run<SerializationBenchmark>(config);
-BenchmarkRunner.Run<CollectionsBenchmark>(ManualConfig.Create(DefaultConfig.Instance)
+BenchmarkRunner.Run<ReflectionBenchmark>(ManualConfig.Create(DefaultConfig.Instance)
     .WithSummaryStyle(SummaryStyle.Default.WithRatioStyle(RatioStyle.Percentage))
     .WithOrderer(new DefaultOrderer(SummaryOrderPolicy.FastestToSlowest)));

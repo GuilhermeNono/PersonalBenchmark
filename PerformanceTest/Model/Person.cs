@@ -1,4 +1,4 @@
-﻿namespace PerformanceTest.Objects;
+﻿namespace PerformanceTest.Model;
 
 public class Person
 {

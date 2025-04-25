@@ -1,6 +1,6 @@
-﻿namespace PerformanceTest.Objects;
+﻿namespace PerformanceTest.Model;
 
-public enum TestEnumByte : byte
+public enum TestEnumInt
 {
     One = 1,
     Two = 2,

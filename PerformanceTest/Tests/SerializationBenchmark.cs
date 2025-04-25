@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 using BenchmarkDotNet.Attributes;
-using PerformanceTest.Objects;
+using PerformanceTest.Model;
 using StackExchange.Redis;
 
 namespace PerformanceTest.Tests;
